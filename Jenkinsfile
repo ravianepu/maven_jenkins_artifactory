@@ -4,7 +4,7 @@ node {
     def rtMaven
     
     stage ('Clone') {
-        git url: 'https://github.com/jfrogdev/project-examples.git'
+        git url: 'https://github.com/ravianepu/maven_jenkins_artifactory.git'
     }
  
     stage ('Artifactory configuration') {
